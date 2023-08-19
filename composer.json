@@ -1,0 +1,28 @@
+{
+  "name": "maris/geo-abstract-models",
+  "description": "Набор абстрактных моделей для географических сервисов.",
+  "license": "MIT",
+  "version": "0.0.1",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Марисов Николай Андреевич",
+      "email": "marisov123456789@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "maris/geo-interfaces": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/n-marisov/geo-interfaces.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Maris\\Interfaces\\Geo\\AbstractModel\\": "src/"
+    }
+  }
+}
